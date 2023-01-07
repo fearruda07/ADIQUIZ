@@ -46,7 +46,7 @@ const quiz =[
         answer:2
     },
     {
-        q:"Qual evento que temos em Q2 e Q4",
+        q:"Qual evento que temos em Q2 e Q4 ?",
         options:["EMMNXT","Key players","Bootcamp"],
         answer:2
     },
