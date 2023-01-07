@@ -16,7 +16,7 @@ const quiz =[
         answer:2
     },
     {	
-        q:'O tênis 4dfwd tem uma tecnologia que gera retorno de energia te impulsionando para..',
+        q:'O tênis 4DFWD possui uma tecnologia que gera retorno de energia te impulsionando para..',
         options:['Cima economizando passos','Ambos os lados','Frente economizando passos','Para trás reduzindo passos'],
         answer:2
     },
