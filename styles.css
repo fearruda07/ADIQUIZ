@@ -1,0 +1,450 @@
+@font-face {
+	font-family: adidas;
+	src: url(adineue-PRO.ttf) format('truetype');
+}
+
+
+a.gflag {vertical-align:middle;font-size:16px;padding:1px 0;background-repeat:no-repeat;background-image:url(//gtranslate.net/flags/16.png);}
+a.gflag img {border:0;}
+a.gflag:hover {background-image:url(//gtranslate.net/flags/16a.png);}
+#goog-gt-tt {display:none !important;}
+.goog-te-banner-frame {display:none !important;}
+.goog-te-menu-value:hover {text-decoration:none !important;}
+body {top:0 !important;}
+#google_translate_element2 {display:none!important;}
+
+body{
+	margin: 0;
+	font-size: 10px;
+	background-color: rgb(255, 255, 255); 
+	background-size: cover;
+	background-position: center;
+
+}
+#H2{
+	text-align: right;
+	color: #000000;
+	animation: fadeInRight 2s ease;
+	font-family: adidas;
+	font-weight: bold;
+}
+.Tradução{
+	text-align: right;
+	animation: fadeInRight 2s ease;
+	font-family: adidas;
+	
+}
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+
+.custome-box{
+	max-width: 700px;
+	background-color: #efefef;
+	margin:40px auto;
+	padding: 30px;
+	border-radius: 6px;
+	animation: fadeInRight 2s ease;
+	border: 20px;
+	background-size: cover;
+	background-position: center;
+	box-shadow: 6px 7px 3px#343434;
+	margin-top: 100px;
+	font-family: adidas;
+	
+	
+}
+@keyframes fadeInRight{
+	0%{
+		transform: translateX(40px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}
+
+.custome-box::before,
+.custome-box::after
+{
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.imagemDaQuestao{
+	display: inline-block;
+	margin-left: 38%;
+	border-radius: 100px;
+	
+
+}
+
+.custome-box.hide{
+	display: none;
+	
+}
+
+.home-box h2{
+	font-size: 18px;
+	color: #000000;
+	font-weight: 500;
+	margin-bottom: 15px;
+	line-height: 25px;
+	border-color: #ffffff;
+	border-radius: 50px;
+	margin-left: 20px;
+	font-family: adidas;
+}
+
+.botão-final a {
+	background-color: #000000;
+	text-align: center;
+	color: #ffffff;
+	padding: 15px;
+	border-radius: 6px;
+	font-size: 15px;
+	transition: transform .4s;
+	text-decoration: none;
+	text-shadow: 10px 2px 1px#060606;
+	font-family: adidas;
+}
+
+.botão-final{
+
+	transition: transform .4s;
+}
+.botão-final:hover{
+	transform: scale(1.1);
+}
+
+
+.botão-final a:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+#logo-frente{
+	width: 160px;
+	margin-left: 240px;
+}
+
+.home-box p{
+	font-size: 16px;
+	margin-bottom: 10px;
+	line-height: 22px;
+	color: #000000;
+	font-weight: 400;
+	margin-left: 20px;
+	font-family: adidas;
+}
+
+.home-box p span{
+	font-weight: 500;
+}
+
+.home-box btn{
+	margin-top: 20px;
+}
+
+.btn{
+	padding: 15px 45px;
+	background-color: #000000;
+	color: #ffffff;
+	border-radius: 6px;
+	font-size: 16px;
+	cursor: pointer;
+	display: flex;
+	transition: transform .4s;
+	margin-left: 10px;
+	font-family: adidas;
+	
+}
+
+.btn:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.quiz-box .question-no,
+.quiz-box .question-text,
+.quiz-box .opt-container,
+.quiz-box .next-question-btn,
+.quiz-box .ans-indicator{
+	width: 100%;
+	float: left;
+
+}
+
+
+.quiz-box .question-no{
+	font-size:	18px;
+	font-weight: bold;
+	border-bottom: 1px solid #ffffff;
+	padding-bottom:  10px;
+	color: #000000;
+	line-height: 25px;
+	margin: 0;
+	text-shadow: 5px 4px 30px#343434;
+	font-family: adidas;
+}
+
+.quiz-box .question-text{ 
+	font-size: 22px;
+	color: #000000;
+	line-height: 28px;
+	padding: 20px 0;
+	text-shadow: #ffffff 3px 3px 4px;
+	font-family: adidas;
+}
+
+.quiz-box .opt-container{
+	cursor: pointer;
+}
+
+.quiz-box .opt-container .option{
+	background-color:  #000000; 
+	padding:10px;
+	font-size: 16px;
+	line-height: 22px;
+	color: #ffffff;
+	border-radius: 6px;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+	animation: fadeIn 0.3s ease forwards;
+	position: relative;
+	overflow: hidden;
+	transition: transform .5s;
+	text-align: center;
+	border-color: #000000;
+	box-shadow: 7px 7px 3px#343434;
+	font-family: adidas;
+}
+
+.quiz-box .opt-container .option:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+	background-color: #000000;
+	color: #ffffff;
+	border-color: #060606;
+	font-family: adidas;
+}
+.quiz-box .opt-container .option.already-answered{
+	pointer-events: none;
+}
+
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.quiz-box .opt-container .option.correct::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: green;
+	z-index: -1;  
+	animation: slideInLeft .5s ease forwards
+}
+@keyframes slideInLeft{
+	0%{
+		transform: translateX(-100%);
+	}
+	100%{
+		transform: translateX(0%);
+	}
+}
+.quiz-box .opt-container .option.wrong::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgb(255, 0, 0);
+	z-index: -1;  
+	animation: slideInLeft .5s ease forwards
+}
+
+.quiz-box .opt-container .option.correct{
+	color: rgb(255, 255, 255);
+}
+.quiz-box .opt-container .option.wrong{
+	color: white;
+}
+
+.quiz-box .btn{
+	margin: 15px 0;
+	cursor: pointer;
+	border-radius: 10px;
+
+}
+
+.quiz-box .ans-indicator{
+	 border-top: 1px solid #ffffff;
+}
+.quiz-box .ans-indicator div{
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	background: #000000;
+	border-radius: 50%;
+	margin-right: 3px;
+	margin-top: 15px;
+	border: 3px solid rgb(255, 255, 255);
+}
+.quiz-box .ans-indicator div.correct{
+	background-color: rgb(4, 146, 4);
+	background-image: url("../img/correct.png");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.quiz-box .ans-indicator div.wrong{
+	background-color: red;
+	background-image: url("../img/wrong.png");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+	.cc{
+		text-align: center;
+		color: #000000;
+		text-shadow: 4px 4px 10px #343434;
+		font-family: adidas;
+		
+	}
+
+.result-box{
+	text-align: center;
+}
+.result-box.hide{
+	display: none;
+}
+.result-box h1{
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: bold;
+	color: #000000;
+	text-shadow: 2px 2px 30px #747474;
+	font-family: adidas;
+}
+.result-box table{
+	width: 100%;
+	border-collapse: collapse;
+	margin: 30px 0;
+}
+.result-box table td{
+	border: 3px solid #000000;
+	padding: 8px 15px; 
+	color: #000000;
+	width: 50%;
+	text-align: left;
+	font-size: 18px;
+	font-family: adidas;
+	
+}
+
+.result-box .btn{
+	text-align: center;
+	display: inline-block;
+}
+
+@media screen and (max-width:600px){
+	.result-box .btn{
+		margin-bottom: 15%;
+	}
+	body{
+	margin: 0;
+	font-size: 16px;
+	background-color: #ffffff;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	background-size: 100%;
+	background-position: center;
+	}
+
+	.custome-box{
+		max-width: 95%;
+		background-color: #efefef;
+		margin-top: -2px;
+		padding: 30px;
+		border-radius: 10px;
+		border-color: #343434;
+		animation: fadeInRight 1s ease;
+		border: 20px;
+		background-size: cover;
+		background-position: center;
+		height: 50%;
+		
+	}
+
+		.btn{
+			padding: 15px 45px;
+			background-color: #000000;
+			color: #ffffff;
+			border: none;
+			border-radius: 10px;
+			font-family: adidas;
+			font-size: 16px;
+			cursor: pointer;
+			display: inline-block;
+			margin-left: 23px;
+			
+		}
+
+
+		.imagemDaQuestao{
+			display: inline-block;
+			margin-left: 29%;
+			border-radius: 100px;
+			
+		
+		
+		}
+
+		#logo-frente{
+			width: 140px;
+			margin-left: 85px;
+		}
+
+		.Tradução{
+			text-align: right;
+			animation: fadeInRight 2s ease;
+			padding-top: 60px;
+			font-family: adidas;
+		}
+
+		.quiz-box .opt-container .option{
+			background-color:  #000000; 
+			padding:10px;
+			font-size: 16px;
+			line-height: 22px;
+			color: #ffffff;
+			border-radius: 6px;
+			margin-bottom: 10px;
+			text-transform: capitalize;
+			animation: fadeIn 0.3s ease forwards;
+			position: relative;
+			overflow: hidden;
+			transition: transform .5s;
+			text-align: center;
+			border-color: #343434;
+			box-shadow: 7px 7px 20px#343434;
+			font-family: adidas;
+		}
+
+		
+}
