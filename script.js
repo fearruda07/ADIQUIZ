@@ -1,7 +1,7 @@
 
 const quiz =[
     {	
-        q:'Em 1970 surge o icone superstar o primeiro tênis com cano baixo inicialmente feito pra as quadras de basquete se tornou viral atraves do jogador....',
+        q:'Em 1970 surge o icone superstar o primeiro tênis com cano baixo inicialmente feito pra as quadras de basquete se tornou viral através do jogador....',
         options:['Bill Russel','Abdul-Jabbar','Stephen Curry'],
         answer:1
     },
