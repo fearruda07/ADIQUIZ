@@ -155,7 +155,7 @@ function quizOver(){
 
 function quizResult(){
 	
-	resultBox.querySelector(".tot-score").innerHTML = correctAnswers + "";
+	resultBox.querySelector(".tot-score").innerHTML = correctAnswers+   "";
 }
 
 
