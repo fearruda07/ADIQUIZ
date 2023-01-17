@@ -155,13 +155,7 @@ function quizOver(){
 
 function quizResult(){
 	
-	resultBox.querySelector(".tot-question").innerHTML = 10;
-	resultBox.querySelector(".tot-attempt").innerHTML =attempt;
-	resultBox.querySelector(".tot-correct").innerHTML = correctAnswers;
-	resultBox.querySelector(".tot-wrong").innerHTML = attempt- correctAnswers;
-	const percentage =  (correctAnswers/10)*100;
-	resultBox.querySelector(".tot-percentage").innerHTML = percentage.toFixed(2) + "%";
-	resultBox.querySelector(".tot-score").innerHTML = correctAnswers+" / 10";
+	resultBox.querySelector(".tot-score").innerHTML = correctAnswers + "";
 }
 
 
