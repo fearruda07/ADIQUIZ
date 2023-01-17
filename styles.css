@@ -308,14 +308,14 @@ body{
 }
 .quiz-box .ans-indicator div.correct{
 	background-color: rgb(4, 146, 4);
-	background-image: url("../img/correct.png");
+	background-image: url("correct.png");
 	background-size: 50%;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .quiz-box .ans-indicator div.wrong{
 	background-color: red;
-	background-image: url("../img/wrong.png");
+	background-image: url("wrong.png");
 	background-size: 50%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -484,6 +484,14 @@ body{
 			margin-left: 1px;
 			
 			
+		}
+
+		.result-box table{
+			width: 100%;
+			margin: 30px 0;
+			background-image: url(fundo-pontuação.gif);
+			background-position: center;
+			background-size: cover;
 		}
 		
 
